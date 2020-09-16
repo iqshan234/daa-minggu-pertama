@@ -1,0 +1,12 @@
+program hitung_luas_segitiga
+
+deklarasi
+var luas,alas,tinggi:integer;
+
+algoritma:
+alas <-- 10;
+tinggi <-- 15;
+
+luas <-- 1/2 * alas * tinggi
+
+write(luas)
