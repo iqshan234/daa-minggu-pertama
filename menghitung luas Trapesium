@@ -1,0 +1,23 @@
+kita tahu bahwasanya rumus keliling dari Trapesium adalah K = AB + BC + CD + AD sedangkan rumus luasnya adalah L = (AB + CD) x t / 2 . Misalkan pada gambar diatas diketahui:
+
+AB = 10
+BC = 6
+CD = AD = 8
+t = 7
+
+Maka dalam penulisan Pseudocode sebagai berikut:
+
+program hitung_luas_trapesium
+
+deklarasi
+var luas, ab, cd, t:integer;
+
+algoritma:
+ab <-- 10;
+cd <-- 8;
+t <-- 7;
+
+luas <-- 1/2 * ab * cd * t;
+
+write <-- luas ;
+Kode diatasterdiri dari judul: program hitung_luas_trapesium, deklarasi: var luas, ab, cd, t:integer;, dan inti dari algoritma yaitu: ab <– 10; cd <– 8; t <– 7; luas <– 1/2 * ab * cd * t;
