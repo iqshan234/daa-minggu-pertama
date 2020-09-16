@@ -1,0 +1,5 @@
+While n ≠ 0 do
+	r ← m mod n
+	m ← n
+	n ← r
+return m
